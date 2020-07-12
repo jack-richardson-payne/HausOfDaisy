@@ -1,0 +1,41 @@
+.featuredCon{
+    float: left;
+    display:block;
+    margin-left: 15%;
+    margin-right:15%;
+    width: 70%;
+}
+
+.featuredCon h1{
+    font-size: 2em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin-bottom:3%;
+}
+
+.featuredCon table{
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.featuredCon img{
+    height: 35em;
+    max-width: 80%;
+    float: left;
+}
+.featuredCon a{
+    margin-top: 3%;
+    width: 100%;
+    float: left;
+}
+.featuredCon p{
+    margin-top: 3%;
+    float: left;
+}
+.featuredCon td{
+    width: 50%;
+    height: 11em;
+    padding-left:5%;
+    padding-right:5%;
+    vertical-align: top;
+}

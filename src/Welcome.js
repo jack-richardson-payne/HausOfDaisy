@@ -8,9 +8,9 @@ class Welcome extends React.Component{
                 <table>
                     <tr><td colSpan="2"><h1>Welcome to Haus of Daisy!</h1></td></tr>
                     <tr>
-                        <td valign="top" class="half"><br /><p>I am a designer who creates outdoor pillows and original prints please feel free to browse and use the contact page if you wish to buy! Thank you for visiting the page.</p>
+                        <td valign="top" class="half"><br /><p>Welcome to Haus of Daisy! My names Alice and Haus of Daisy is a brand I have created to share my love of print and pattern. Living in Brighton, with my two cats Sushi and Kiwi, I create bold patterns and layered digital prints for your contemporary home. Follow us on @hausofdaisy on instagram for the latest updates and products!</p>
 </td>
-                        <td><img src={require('./images/example.PNG')} alt="Some of my Pillows"/></td>
+                        <td><img src='./images/example.PNG' alt="Some of my Pillows"/></td>
                     </tr>          
                 </table>
             </div>
