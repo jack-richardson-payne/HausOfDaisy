@@ -1,0 +1,30 @@
+.Welcome {
+    margin-top: 10%;
+    float:left;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 32em;
+}
+
+.Welcome h1{
+    font-size: 2.5em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.Welcome p{
+    text-align: left;
+    font-size: 1.3em;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.Welcome img{
+    margin-left: auto;
+    margin-right: auto;
+    height: 60%;
+    display: block;
+}
+.half{
+    width:70%;
+}

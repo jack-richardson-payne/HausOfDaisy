@@ -1,0 +1,42 @@
+
+.Heading{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 9em;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+}
+
+.Heading a {
+    line-height: 2em;
+    margin-top: 5.5em;
+    display: block;
+    width: 15%;
+    height: 2em;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 1.2em;
+}
+
+.Heading a:hover{
+    background-color: #e9e9e4;
+}
+.Heading img{
+    display: block;
+    float:left;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.MLeft {
+    margin-left: 17%;
+}
