@@ -5,17 +5,17 @@ class Heading extends React.Component{
   render(){
     return (
       <div class="Heading">
-        <a class="MLeft" href="index.html">Home</a>
-        <a class="BLeft" href="about.html">About</a>
+        <a class="MLeft" href="index">Home</a>
+        <a class="BLeft" href="about">About</a>
         <img class="logo" src='./images/logo.PNG' alt="Haus Of Daisy"/>
-        <a href="cushions.html">Cushions</a>
-        <a class="BLeft" href="prints.html">Prints</a>
+        <a href="cushions">Cushions</a>
+        <a class="BLeft" href="prints">Prints</a>
         <div class="instaLink MRight">
           <p>Check out these links!</p>
-          <a href="https://www.instagram.com/hausofdaisy/">
+          <a href="https://www.instagram.com/hausofdaisy/" target="_blank" rel="noopener noreferrer">
             <img src='./images/insta.png' alt="Instagram Link"/>
           </a>
-          <a href="https://www.etsy.com/uk/shop/HAUSOFDAISY?">
+          <a href="https://www.etsy.com/uk/shop/HAUSOFDAISY?" target="_blank" rel="noopener noreferrer">
             <img src='./images/etsy.png' alt="Etsy Link"/>
           </a>
         </div>
