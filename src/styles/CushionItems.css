@@ -1,0 +1,47 @@
+.itemCont{
+    float:left;
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 10%;
+    width: 70%;
+    margin-bottom: 20%;
+}
+
+.CushItem{
+    float:left;
+    margin-left:2%;
+    width: 30.33%;
+    overflow: hidden;
+    border: 1px solid #fff8fa;
+    font-family: 'Source Code Pro', monospace;
+    
+
+}
+
+.CushItem:hover{
+    border: 1px solid black;
+}
+
+.CushItem img{
+    width:80%;
+    padding-left:10%;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+
+.CushItem p{
+    font-size: 0.8vw;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.top {
+    border-top: 1px solid black;
+    padding-top:2%;
+}
+
+.CushItem h2{
+    text-align: center;
+    font-size: 1vw;
+    border-bottom: 1px solid black;
+}
