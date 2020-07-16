@@ -12,12 +12,18 @@
     float:left;
     margin-left:2%;
     width: 30.33%;
-    overflow: hidden;
+    overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
     margin-bottom:2%;
-    min-height: 44vw;
-    max-height: 44vw;
+    min-height: 45vw;
+    max-height: 45vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.printItem::-webkit-scrollbar{
+    display:none;
 }
 
 .printItem:hover{
@@ -25,6 +31,7 @@
 }
 
 .printItem img{
+ 
     width:80%;
     padding-left:10%;
     padding-top:3%;

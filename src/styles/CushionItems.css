@@ -12,10 +12,17 @@
     float:left;
     margin-left:2%;
     width: 30.33%;
-    overflow: hidden;
+    overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
+    min-height: 50vw;
+    max-height: 50vw;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
 
+.CushItem::-webkit-scrollbar{
+    display:none;
 }
 
 .CushItem:hover{
@@ -64,6 +71,7 @@
     line-height: 1.6vw;
     margin-bottom: 1%;
     border: 1px solid #d3a3e4;
+    
 }
 
 .CushItem a:hover{
