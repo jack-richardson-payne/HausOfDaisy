@@ -4,7 +4,7 @@ import '../styles/Heading.css';
 class Heading extends React.Component{
   render(){
     return (
-      <div class="Heading">
+      <div className="Heading">
         <a class="MLeft" href="index">Home</a>
         <a class="BLeft" href="about">About</a>
         <a class="BLeft" href="gallery">Gallery</a>

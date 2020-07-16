@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Cushions from './pages/Cushions';
+import Prints from './pages/Prints';
  
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
              <Route path="/index" component={Home}/>
              <Route path="/about" component={About}/>
              <Route path="/cushions" component={Cushions}/>
+             <Route path="/prints" component={Prints}/>
             <Route component={Error}/>
            </Switch>
         </div> 
