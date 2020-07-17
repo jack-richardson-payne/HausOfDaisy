@@ -3,6 +3,7 @@ import React from 'react';
 import Heading from '../components/Heading';
 import Bottom from '../components/Bottom';
 import CushionItem from '../components/CushionItem';
+import PageDesc from '../components/PageDesc';
 
 import '../styles/CushionItems.css';
 
@@ -11,6 +12,8 @@ class Cushions extends React.Component{
         return(
         <React.StrictMode>
             <Heading />
+            <PageDesc title="Haus of Daisy Outdoor Waterproof Cushions" 
+            body="When creating an outdoor space we at Haus of Daisy believe that print and pattern are just as important as the plants! We are obsessed with acessorising outdoor spaces, and have developed outdoor cushions created in a waterproof fabric to brighten and inject colour into your garden. Using the latest in fabric technology, our fabric is water resistant, meaning the inside cushion stays dry 100% of the time. Made from a waterproof polyester oxford material, these initiative cushions are the perfect outdoor accessory."/>
             <div class="itemCont">
                 <CushionItem title="Monochrome Waterproof Garden Cushion" 
                 id='1' 

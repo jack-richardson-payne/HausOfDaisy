@@ -1,0 +1,17 @@
+.desc {
+    float:left;
+    margin-top: 10%;
+    display: block;
+    margin-left: 15%;
+    margin-right: 19%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.desc h1{
+    font-size: 1.6vw;
+    margin-bottom: 2%;
+}
+
+.desc p{
+    font-size: 0.93vw;
+}
