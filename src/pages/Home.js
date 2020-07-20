@@ -12,7 +12,7 @@ class Home extends React.Component{
         return(
         <React.StrictMode>
             <Heading />
-            <div class="banner">
+            <div class="bannermain">
                 <img src="./images/black_and_white_cushion.jpg" alt="example print"></img>
             </div>
             <Welcome />

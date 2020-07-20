@@ -13,7 +13,7 @@ body {
     background-color: #fff8fa;
 }
 
-.banner{
+.bannermain{
     width: 100%;
     height: 16vw;
     margin-top: 7%;
@@ -22,7 +22,8 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
-.banner img{
+.bannermain img{
     width:100%;
+    
 }
 
