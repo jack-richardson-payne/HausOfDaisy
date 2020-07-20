@@ -4,7 +4,7 @@ import Heading from '../components/Heading';
 import Bottom from '../components/Bottom';
 import PrintItem from '../components/PrintItem';
 import PageDesc from '../components/PageDesc';
-
+import PrintBanner from '../components/PrintBanner';
 
 
 
@@ -13,6 +13,7 @@ class Prints extends React.Component{
         return(
             <React.StrictMode>
                 <Heading />
+                <PrintBanner src="./images/designs/ohcrabmain.png"/>
                 <PageDesc title="Haus of Daisy Original Prints" 
             body="Haus of Daisy prints are designed here in our studio in sunny costal Brighton, England. Our prints are built upon hand drawings that are developed digitally into contemporary bold prints, in A3 and A2 sizes. Exclusive and original, they are printed on 180gsm premium matt paper here in the UK, ready to be framed. We package and post them with care in a cardboard tube to protect from creases. "/>
                 <div class="printCont">

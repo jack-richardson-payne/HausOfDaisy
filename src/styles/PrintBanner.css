@@ -1,0 +1,14 @@
+.banner{
+    float:left;
+    margin-top: 8%;
+    width:100%;
+    height: 17vw;
+    overflow: hidden;
+}
+
+.banner img{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+}
