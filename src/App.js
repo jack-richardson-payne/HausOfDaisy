@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Cushions from './pages/Cushions';
 import Prints from './pages/Prints';
+import Gallery from './pages/Gallery';
  
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
              <Route path="/about" component={About}/>
              <Route path="/cushions" component={Cushions}/>
              <Route path="/prints" component={Prints}/>
+             <Route path="/Gallery" component={Gallery}/>
             <Route component={Error}/>
            </Switch>
         </div> 
