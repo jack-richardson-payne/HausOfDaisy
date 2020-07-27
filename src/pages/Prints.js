@@ -9,11 +9,17 @@ import PrintBanner from '../components/PrintBanner';
 
 
 class Prints extends React.Component{
+    getSource(){
+        const min = 1;
+        const max = 9;
+        const rand = Math.floor(min + Math.random() * (max - min));
+        return "./images/designs/print" + rand + ".png";
+    }
     render(){
         return(
             <React.StrictMode>
                 <Heading />
-                <PrintBanner src="./images/designs/ohcrabmain.png"/>
+                <PrintBanner src={this.getSource()} />
                 <PageDesc title="Haus of Daisy Original Prints" 
             body="Haus of Daisy prints are designed here in our studio in sunny costal Brighton, England. Our prints are built upon hand drawings that are developed digitally into contemporary bold prints, in A3 and A2 sizes. Exclusive and original, they are printed on 180gsm premium matt paper here in the UK, ready to be framed. We package and post them with care in a cardboard tube to protect from creases. "/>
                 <div class="printCont">

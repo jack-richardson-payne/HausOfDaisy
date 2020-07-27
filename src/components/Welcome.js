@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Welcome.css';
+import InstagramEmbed from 'react-instagram-embed';
 
 class Welcome extends React.Component{
     render(){
@@ -8,7 +9,20 @@ class Welcome extends React.Component{
                 <table>
                     <tr>
                         <td><h1>Welcome to Haus of Daisy!</h1></td>
-                        <td rowSpan='2' valign='top'><img src='./images/cushions/mixed13.jpg' alt="Haus Of Daisy Tags"/></td>
+                        <td rowSpan='2' valign='top'>
+                        <InstagramEmbed
+                        url='https://www.instagram.com/p/CCvQpJAHLcW/'
+                        maxWidth={320}
+                        hideCaption={true}
+                        containerTagName='div'
+                        protocol=''
+                        injectScript
+                        onLoading={() => {}}
+                        onSuccess={() => {}}
+                        onAfterRender={() => {}}
+                        onFailure={() => {}}
+                        />
+                        </td>
                     </tr>
                     <tr>
                         <td valign="top" class="half">
@@ -22,3 +36,5 @@ class Welcome extends React.Component{
 }
 
 export default Welcome;
+
+// <td rowSpan='2' valign='top'><img src='./images/cushions/mixed13.jpg' alt="Haus Of Daisy Tags"/></td>
