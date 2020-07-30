@@ -9,6 +9,10 @@ import Bottom from '../components/Bottom';
 
 class Home extends React.Component{
     render(){
+        // console.log(localStorage.getItem("basketId"));
+        // console.log(localStorage.getItem("basketPrice"));
+        // console.log(localStorage.getItem("basketTitle"));
+        
         return(
         <React.StrictMode>
             <Heading />

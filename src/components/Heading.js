@@ -5,12 +5,21 @@ class Heading extends React.Component{
   render(){
     return (
       <div className="Heading">
-        <a class="MLeft" href="index">Home</a>
-        <a class="BLeft" href="about">About</a>
-        <a class="BLeft" href="gallery">Gallery</a>
+        <a class="MLeft" href="index" onClick={localStorage.getItem("basketId"),
+      localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>Home</a>
+        <a class="BLeft" href="about"  onClick={localStorage.getItem("basketId"),
+      localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>About</a>
+        <a class="BLeft" href="gallery"  onClick={localStorage.getItem("basketId"),
+      localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>Gallery</a>
         <img class="logo" src='./images/logo.PNG' alt="Haus Of Daisy"/>
-        <a href="cushions">Cushions</a>
-        <a class="BLeft" href="prints">Prints</a>
+        <a href="cushions"  onClick={localStorage.getItem("basketId"),
+      localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>Cushions</a>
+        <a class="BLeft" href="prints"  onClick={localStorage.getItem("basketId"),
+      localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>Prints</a>
+      <div class="BLeft small">
+        <a class="BLeft small" href="basket"  onClick={localStorage.getItem("basketId"),
+        localStorage.getItem("basketPrice"), localStorage.getItem("basketTitle")}>Basket</a>
+      </div>
         <div class="instaLink MRight">
           <p>Check out these links!</p>
           <a href="https://www.instagram.com/hausofdaisy/" target="_blank" rel="noopener noreferrer">

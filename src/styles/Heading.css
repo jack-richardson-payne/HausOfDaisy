@@ -81,3 +81,9 @@
 .MRight {
     margin-right: 5%;
 }
+
+.small a{
+    width: 3%;
+    font-size: 0.7vw;
+    
+}
