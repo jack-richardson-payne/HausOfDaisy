@@ -9,7 +9,7 @@ class BasketDisplay extends React.Component{
         var ids = JSON.parse(localStorage.getItem("basketId")); 
         var prices = JSON.parse(localStorage.getItem("basketPrice")); 
         var titles = JSON.parse(localStorage.getItem("basketTitle")); 
-        
+        var total; 
         if(ids === null){
             ids = [];
             prices = [];
@@ -17,7 +17,7 @@ class BasketDisplay extends React.Component{
             total = 0;
         }
         else{
-            var total = prices.reduce((accumulator, currentValue) => parseInt(accumulator) + parseInt(currentValue));
+            total = prices.reduce((accumulator, currentValue) => parseInt(accumulator) + parseInt(currentValue));
         }
         return(
             <div class="basketManager">
