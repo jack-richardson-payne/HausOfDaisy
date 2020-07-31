@@ -47,6 +47,7 @@
 }
 .instaLink{
     margin-top: 3.3vw;
+    
 }
 
 .instaLink img{
@@ -67,6 +68,7 @@
     float: right;
     margin-left:1%;
     margin-top: 0.5%;
+    
 }
 
 .instaLink a:hover{
@@ -74,16 +76,25 @@
 }
 .instaLink p{
     font-family: 'Source Code Pro', monospace;
-    text-align: left;
+    text-align: center;
     font-size: 0.7vw;
-    margin-left: 94%;
+    margin-left: 93%;
 }
 .MRight {
     margin-right: 5%;
 }
 
 .small a{
-    width: 3%;
-    font-size: 0.7vw;
-    
+    width: 4%;
+    font-size: 0.9vw;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.small a:hover{
+    background-color: white;
+}
+
+.small img{
+    width:65%;
 }

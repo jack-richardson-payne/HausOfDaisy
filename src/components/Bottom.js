@@ -6,10 +6,13 @@ class Bottom extends React.Component{
         return(
             <div class="footer">
                 <table>
+                    <thead>
                     <tr>
                         <th>Customer Service</th>
                         <th>Meet us</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td><a href="FAQ">FAQ's</a></td>
                         <td><a href="about">About us</a></td> 
@@ -22,6 +25,7 @@ class Bottom extends React.Component{
                         <td><a href="product">Product Info</a></td>
                         <td><a href="made">How it's made</a></td>
                     </tr>
+                    </tbody>
                 </table>
                 <div class="creator">
                     <p>Website created by Jack Richardson-Payne</p>

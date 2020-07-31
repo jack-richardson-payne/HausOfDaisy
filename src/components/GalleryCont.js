@@ -8,6 +8,7 @@ class GalleryCont extends React.Component{
         <div class="Gallery">
             <h1>Haus of Daisy gallery</h1>
             <table>
+                <tbody>
                 <tr>
                     <td rowSpan='2'width='30%'align='center'>
                         <img src='./images/other/Gallery/example.png' alt='Customer Display' width='85%' height='auto'/>
@@ -35,6 +36,7 @@ class GalleryCont extends React.Component{
                         <img src='./images/other/Gallery/image00067.jpeg' alt='Customer Display' height='auto' width='100%' />
                     </td>
                 </tr>
+                </tbody>
             </table>
         </div>);
     }

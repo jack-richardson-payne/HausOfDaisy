@@ -24,6 +24,7 @@ class Home extends React.Component{
             <div class="featuredCon">
                 <h1>Featured Items!</h1>
                 <table>
+                    <tbody>
                     <tr>
                         <td><Featured img="./images/prints/BlueAbstract/main.jpg"
                         src="https://www.etsy.com/uk/listing/801171724/blue-abstract-digitally-printed-wall-art?ref=shop_home_active_10&frs=1"
@@ -39,6 +40,7 @@ class Home extends React.Component{
                         " 
                         page="cushions"/></td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
             

@@ -6,6 +6,7 @@ import Basket from '../functionality/Basket.js';
 class PrintItem extends React.Component{
     handleClick() {
         Basket.addItem(this.props.id, this.props.price, this.props.title);
+        window.location.reload(false);
     }
     render(){
         return(

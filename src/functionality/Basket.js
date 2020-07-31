@@ -1,3 +1,4 @@
+/* eslint eqeqeq: 0 */
 var Basket = (function() {
     var addItem = function(id, price, title){
         // ID
@@ -48,6 +49,30 @@ var Basket = (function() {
     };
 
     var removeItem = function(id){
+        var idArray = JSON.parse(localStorage.getItem("basketId"));
+        var priceArray = JSON.parse(localStorage.getItem("basketPrice"));
+        var titleArray = JSON.parse(localStorage.getItem("basketTitle"));
+        var idArrayOut = [];
+        var priceArrayOut = [];
+        var titleArrayOut = [];
+        console.log(idArray);
+        for(var i = 0; i < idArray.length; i++){
+            if(idArray[i] == id[0]){
+                
+            }
+            else{
+                idArrayOut.push(idArray[i]);
+                priceArrayOut.push(priceArray[i]);
+                titleArrayOut.push(titleArray[i]);
+            }
+        }
+
+        localStorage.clear();
+        localStorage.setItem("basketId", JSON.stringify(idArrayOut));
+        localStorage.setItem("basketTitle", JSON.stringify(titleArrayOut));
+        localStorage.setItem("basketPrice", JSON.stringify(priceArrayOut));
+        
+
 
     };
 

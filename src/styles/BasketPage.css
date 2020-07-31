@@ -9,19 +9,74 @@
     margin-bottom: 20%;
 }
 
-.basketManager ul{
-    width: 33%;
-    float: left;
-    list-style: none;
-}
-
-.basketManager p {
-    float:left;
-    margin-top: 1%;
-    width:100%;
-}
-
 .basketManager button{
     float: left;
     margin-top:3%;
+}
+
+.basketManager table{
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.basketManager th{
+    font-size: 1.5vw;
+    text-align: left;
+}
+
+.basketManager td{
+    font-size: 1.3vw;
+    height: 2vw;
+}
+
+.bottom {
+    border-bottom: 1px solid lightslategrey;
+}
+
+.top {
+    border-top: 1px solid lightslategrey;
+    font-size: 1.1vw;
+}
+.right{
+    text-align: right;
+}
+
+.del{
+    width: 1%;
+    
+}
+
+.del button{
+    width:auto;
+    height:2vw;
+    background: none;
+    border: none;
+    outline: none;
+    margin-left: 20%;
+}
+
+.del img{
+    width: auto;
+    height: 100%;
+    vertical-align: top;
+    
+}
+
+.butt {
+    width: 15%;
+    height: 4vh;
+    background-color: lightgreen;
+    border: 1px solid gray;
+    margin-right: 5%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+.red{
+    background-color: lightcoral;
+}
+
+.butt:hover{
+    border: 1px solid black;
 }

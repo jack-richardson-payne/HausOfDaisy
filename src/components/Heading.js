@@ -2,10 +2,17 @@ import React from 'react';
 import '../styles/Heading.css';
 
 class Heading extends React.Component{
+  getItems(){
+    var idArray = JSON.parse(localStorage.getItem("basketId"));
+    if(idArray != null){
+      return idArray.length;
+    }
+    
+  }
   render(){
     return (
       <div className="Heading">
-        <a class="MLeft" href="index" onClick={function(){
+        <a className="MLeft" href="index" onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Home</a>
@@ -30,7 +37,8 @@ class Heading extends React.Component{
         <a class="BLeft small" href="basket"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
-          localStorage.getItem("basketTitle");}}>Basket</a>
+          localStorage.getItem("basketTitle");}}><img src="./images/misc/basket.png" alt="Basket" />
+          {this.getItems()}</a>
       </div>
         <div class="instaLink MRight">
           <p>Check out these links!</p>

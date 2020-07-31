@@ -10,14 +10,15 @@
 
 .printItem{
     float:left;
+    display: block;
     margin-left:2%;
     width: 30.33%;
     overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
     margin-bottom:2%;
-    min-height: 45vw;
-    max-height: 45vw;
+    min-height: 49vw;
+    max-height: 49vw;
     -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -82,5 +83,28 @@
 }
 
 .printItem a:hover{
+    border: 1px solid black;
+}
+
+.printItem button{
+    display: block;
+    width:auto;
+    background-color: lightgreen;
+    text-decoration: none;
+    color:black;
+    margin-left:2%;
+    width: 40%;
+    overflow: hidden;
+    margin-top: 3%;
+    text-align: center;
+    height: 1.6vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    line-height: 1.6vw;
+    margin-bottom: 1%;
+    border: 1px solid lightgreen;
+}
+
+.printItem button:hover{
     border: 1px solid black;
 }
