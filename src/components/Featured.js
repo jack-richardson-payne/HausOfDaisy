@@ -7,9 +7,9 @@ class Featured extends React.Component{
             <div class='featItem'>
                 <h2>{this.props.title}</h2>
                 <img src={this.props.img} alt="Featured Item"/>
-                <a href={this.props.src} class="topBord">See this item!</a>
-                <p>{this.props.desc}</p>
-                <a href={this.props.page}>See more like this!</a>
+                <p class="topBord">{this.props.desc}</p>
+                <a class="purple" href={this.props.src} >Buy on Etsy!</a>
+                <a class="blue" href={this.props.page}>See more like this!</a>
             </div>
         );
     }

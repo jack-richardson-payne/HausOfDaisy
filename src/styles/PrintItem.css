@@ -89,7 +89,7 @@
 .printItem button{
     display: block;
     width:auto;
-    background-color: lightgreen;
+    background-color: lightskyblue;
     text-decoration: none;
     color:black;
     margin-left:2%;
@@ -102,7 +102,7 @@
     text-transform: uppercase;
     line-height: 1.6vw;
     margin-bottom: 1%;
-    border: 1px solid lightgreen;
+    border: 1px solid lightskyblue;
 }
 
 .printItem button:hover{

@@ -15,8 +15,8 @@
     overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
-    min-height: 50vw;
-    max-height: 50vw;
+    min-height: 58vw;
+    max-height: 58vw;
     -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -80,5 +80,28 @@
 }
 
 .CushItem a:hover{
+    border: 1px solid black;
+}
+
+.CushItem button{
+    display: block;
+    width:auto;
+    background-color: lightskyblue;
+    text-decoration: none;
+    color:black;
+    margin-left:2%;
+    width: 40%;
+    overflow: hidden;
+    margin-top: 3%;
+    text-align: center;
+    height: 1.6vw;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    line-height: 1.6vw;
+    margin-bottom: 1%;
+    border: 1px solid lightskyblue;
+}
+
+.CushItem button:hover{
     border: 1px solid black;
 }

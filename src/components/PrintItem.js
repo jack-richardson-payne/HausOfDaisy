@@ -14,9 +14,10 @@ class PrintItem extends React.Component{
                 <h2>{this.props.title}</h2>
                 <img src={this.props.src} alt={this.props.title} />
                 <p class="top">{this.props.desc} <br/>Item Id:{this.props.id}</p>
-                <p><br/>Price: £{this.props.price} + VAT</p>
-                <a href={this.props.etsy} target="_blank" rel="noopener noreferrer">Buy on etsy</a>
+                <p><br/><b>Price: £{this.props.price}</b></p>
                 <button onClick={() => this.handleClick()}>Add to basket</button>
+                <a href={this.props.etsy} target="_blank" rel="noopener noreferrer">Buy on etsy</a>
+                
             </div>
         );
     }

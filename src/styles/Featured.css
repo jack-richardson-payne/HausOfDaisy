@@ -23,6 +23,7 @@
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     margin-bottom:3%;
+    text-align: center;
 }
 
 .featuredCon table{
@@ -76,4 +77,36 @@
 
 .topBord{
     border-top: 1px solid black;
+}
+
+.featuredCon a{
+    display: block;
+    width:auto;
+    text-decoration: none;
+    color:black;
+    margin-left:2%;
+    width: 51%;
+    overflow: hidden;
+    margin-top: 3%;
+    text-align: center;
+    height: 1.6vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    line-height: 1.6vw;
+    margin-bottom: 1%;
+    
+}
+
+.featuredCon a:hover{
+    border: 1px solid black;
+}
+
+.blue{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+}
+
+.purple{
+    border: 1px solid #d3a3e4;
+    background-color: #d3a3e4;
 }
