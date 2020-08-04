@@ -8,6 +8,7 @@ import Cushions from './pages/Cushions';
 import Prints from './pages/Prints';
 import Gallery from './pages/Gallery';
 import BasketPage from './pages/BasketPage';
+import Error from './pages/Error';
  
 class App extends Component {
   render() {

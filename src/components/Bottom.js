@@ -4,7 +4,7 @@ import '../styles/Bottom.css';
 class Bottom extends React.Component{
     render(){
         return(
-            <div class="footer">
+            <div className="footer">
                 <table>
                     <thead>
                     <tr>
@@ -27,7 +27,7 @@ class Bottom extends React.Component{
                     </tr>
                     </tbody>
                 </table>
-                <div class="creator">
+                <div className="creator">
                     <p>Website created by Jack Richardson-Payne</p>
                     <a href="https://www.linkedin.com/in/jack-richardson-payne-5a58991b0/" target="_blank" rel="noopener noreferrer">See my linkedin!</a>
                 </div>

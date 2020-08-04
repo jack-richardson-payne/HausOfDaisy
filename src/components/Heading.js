@@ -16,31 +16,33 @@ class Heading extends React.Component{
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Home</a>
-        <a class="BLeft" href="about"  onClick={function(){
+        <a className="BLeft" href="about"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>About</a>
-        <a class="BLeft" href="gallery"  onClick={function(){
+        <a className="BLeft" href="gallery"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Gallery</a>
-        <img class="logo" src='./images/logo.PNG' alt="Haus Of Daisy"/>
+        <img className="logo" src='./images/logo.PNG' alt="Haus Of Daisy" onClick={function(){
+          window.location.href = 'index'
+        }}/>
         <a href="cushions"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Cushions</a>
-        <a class="BLeft" href="prints"  onClick={function(){
+        <a className="BLeft" href="prints"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Prints</a>
-      <div class="BLeft small">
-        <a class="BLeft small" href="basket"  onClick={function(){
+      <div className="BLeft small">
+        <a className="BLeft small" href="basket"  onClick={function(){
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}><img src="./images/misc/basket.png" alt="Basket" />
           {this.getItems()}</a>
       </div>
-        <div class="instaLink MRight">
+        <div className="instaLink MRight">
           <p>Check out these links!</p>
           <a href="https://www.instagram.com/hausofdaisy/" target="_blank" rel="noopener noreferrer">
             <img src='./images/insta.png' alt="Instagram Link"/>

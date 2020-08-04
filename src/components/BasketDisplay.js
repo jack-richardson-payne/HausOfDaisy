@@ -37,10 +37,10 @@ class BasketDisplay extends React.Component{
                     <table>
                         <thead>
                         <tr>
-                            <th class="bottom">Id</th>
-                            <th class="bottom">Product</th>
-                            <th class="bottom">Price</th>
-                            <th class="bottom">Remove</th>
+                            <th className="bottom">Id</th>
+                            <th className="bottom">Product</th>
+                            <th className="bottom">Price</th>
+                            <th className="bottom">Remove</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -49,7 +49,7 @@ class BasketDisplay extends React.Component{
                                 <td>{tableRow[0]}</td>
                                 <td>{tableRow[2]}</td>
                                 <td>£{tableRow[1]}</td>
-                                <td class="del"><button onClick={function(){
+                                <td className="del"><button onClick={function(){
                                     if(basketArray.length > 1){
                                         Basket.removeItem(tableRow[0]);
                                     }
@@ -66,15 +66,15 @@ class BasketDisplay extends React.Component{
                             </tr>
                         })}
                         <tr>
-                            <td class="top"></td>
-                            <td class="right top">Subtotal:</td>
-                            <td class="top">£{total}</td>
-                            <td class="top"></td>
+                            <td className="top"></td>
+                            <td className="right top">Subtotal:</td>
+                            <td className="top">£{total}</td>
+                            <td className="top"></td>
                         </tr>
                         </tbody>
                     </table>
-                    <button  class="butt">Pay Now</button>
-                    <button class="butt red"onClick={function(){
+                    <button  className="butt">Pay Now</button>
+                    <button className="butt red"onClick={function(){
                         localStorage.clear();
                         ids = [];
                         prices = [];
@@ -88,7 +88,7 @@ class BasketDisplay extends React.Component{
         }
         else {
             return(
-                <div class="empty">
+                <div className="empty">
                     <h1>Basket Empty</h1>
                     <img src="./images/misc/error.svg" alt="Basket empty" />
                     <p>Add items to the basket and return here to checkout.</p>

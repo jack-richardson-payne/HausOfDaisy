@@ -16,12 +16,12 @@ class Home extends React.Component{
         return(
         <React.StrictMode>
             <Heading />
-            <div class="bannermain">
+            <div className="bannermain">
                 <img src="./images/black_and_white_cushion.jpg" alt="example print"></img>
             </div>
             <Welcome />
             <ImageLinks />
-            <div class="featuredCon">
+            <div className="featuredCon">
                 <h1>Featured Items</h1>
                 <table>
                     <tbody>

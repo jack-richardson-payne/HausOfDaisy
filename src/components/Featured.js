@@ -4,12 +4,12 @@ import '../styles/Featured.css';
 class Featured extends React.Component{
     render(){
         return(
-            <div class='featItem'>
+            <div className='featItem'>
                 <h2>{this.props.title}</h2>
                 <img src={this.props.img} alt="Featured Item"/>
-                <p class="topBord">{this.props.desc}</p>
-                <a class="purple" href={this.props.src} >Buy on Etsy!</a>
-                <a class="blue" href={this.props.page}>See more like this!</a>
+                <p className="topBord">{this.props.desc}</p>
+                <a className="purple" href={this.props.src} >Buy on Etsy!</a>
+                <a className="blue" href={this.props.page}>See more like this!</a>
             </div>
         );
     }

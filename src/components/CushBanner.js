@@ -4,7 +4,7 @@ import '../styles/PrintBanner.css';
 class CushBanner extends React.Component{
     render(){
         return(
-            <div class="banner">
+            <div className="banner">
                 <img src={this.props.src} alt="Cushions banner"/>
             </div>
         );

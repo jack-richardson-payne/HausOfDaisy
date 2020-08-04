@@ -5,7 +5,7 @@ import InstagramEmbed from 'react-instagram-embed';
 class Welcome extends React.Component{
     render(){
         return(
-            <div class="Welcome">
+            <div className="Welcome">
                 <table>
                     <tbody>
                         <tr>
@@ -26,7 +26,7 @@ class Welcome extends React.Component{
                             </td>
                         </tr>
                         <tr>
-                            <td valign="top" class="half">
+                            <td valign="top" className="half">
                                 <p>Haus of Daisy is a new and upcoming quirky home accessories brand created by Brighton print designer, Alice Richardson-Payne. Here at Haus of Daisy, are obsessed with all things digital and contemporary. We love creating quirky printed products, with patterns built upon initial hand drawings which are layered up and then digitalised.<br /><br />Check out our works and find us on instagram @hausofdaisy to stay up to date with the our latest collections.</p>
                             </td>
                         </tr>  

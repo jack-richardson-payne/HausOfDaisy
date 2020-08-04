@@ -5,7 +5,7 @@ import '../styles/GalleryCont.css';
 class GalleryCont extends React.Component{
     render(){
         return(
-        <div class="Gallery">
+        <div className="Gallery">
             <h1>Haus of Daisy gallery</h1>
             <table>
                 <tbody>

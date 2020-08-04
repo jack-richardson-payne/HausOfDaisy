@@ -10,10 +10,10 @@ class PrintItem extends React.Component{
     }
     render(){
         return(
-            <div class="printItem">
+            <div className="printItem">
                 <h2>{this.props.title}</h2>
                 <img src={this.props.src} alt={this.props.title} />
-                <p class="top">{this.props.desc} <br/>Item Id:{this.props.id}</p>
+                <p className="top">{this.props.desc} <br/>Item Id:{this.props.id}</p>
                 <p><br/><b>Price: £{this.props.price}</b></p>
                 <button onClick={() => this.handleClick()}>Add to basket</button>
                 <a href={this.props.etsy} target="_blank" rel="noopener noreferrer">Buy on etsy</a>
