@@ -2,7 +2,6 @@ import React from 'react';
 
 import '../styles/PrintItem.css';
 import Basket from '../functionality/Basket.js';
-import Print from '../pages/print';
 
 class PrintItem extends React.Component{
     handleClick() {

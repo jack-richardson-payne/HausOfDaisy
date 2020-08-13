@@ -24,7 +24,7 @@ class Print extends React.Component{
                         <p>£{price}</p><br/>
                         <p>Item Id:{id}</p><br/>
                     </div>
-                    <img src={src} />
+                    <img src={src} alt={title}/>
                 </div>
                 <Bottom />
             </React.StrictMode>
