@@ -22,7 +22,7 @@ class Home extends React.Component{
             <Welcome />
             <ImageLinks />
             <div className="featuredCon">
-                <h1>Featured Items</h1>
+                <h1>Our Favourites</h1>
                 <table>
                     <tbody>
                     <tr>

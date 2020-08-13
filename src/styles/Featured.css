@@ -33,17 +33,38 @@
 
 .featuredCon img{
     height: 30vw;
-    max-width: 80%;
-    float: left;
+    width:  80%;
+    
     padding-left:10%;
     padding-top:3%;
     padding-bottom: 3%;
     transition: all 0.5s;
-    
+    position: relative;
 }
 
-.featuredCon img:hover{
-    transform: scale(1.1);
+
+.featuredCon p{
+    position: relative;
+    
+    width:77%;
+    margin-left: 10%;;
+    height: 30vw;
+    padding-left:2%;
+    padding-right:2%;
+    margin-top: -31vw;
+    background: rgba(211, 211, 211, 0.85);
+    color: black;
+    z-index:20;
+    visibility: hidden;
+    opacity: 0;
+
+     /* transition effect. not necessary */
+     transition: opacity .2s, visibility .2s;
+}
+
+.featItem:hover p{
+    visibility: visible;
+    opacity: 1;
 }
 
 .featuredCon a{
@@ -53,13 +74,7 @@
     padding-left:2%;
     padding-right:2%;
 }
-.featuredCon p{
-    margin-top: 3%;
-    float: left;
-    padding-left:2%;
-    padding-right:2%;
-    
-}
+
 .featuredCon td{
     width: 50%;
     height: 11vw;

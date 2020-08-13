@@ -1,0 +1,29 @@
+.individualPrint{
+    float:left;
+    margin-left: 13%;
+    margin-right: 17%;
+    margin-top: 10%;
+    width: 70%;
+    margin-bottom: 20%;
+}
+
+.info{
+    float: left;
+    width: 65%;
+}
+.info p{
+    font-size: 1.2vw;
+    font-family: 'Source Code Pro', monospace;
+     
+}
+
+.individualPrint img{
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.info h2{
+    font-size: 1.5vw;
+    font-family: 'Source Code Pro', monospace;
+}

@@ -15,8 +15,7 @@
     overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
-    min-height: 58vw;
-    max-height: 58vw;
+    height: 45vw;
     -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
@@ -29,23 +28,64 @@
     border: 1px solid black;
 }
 
-.CushItem img{
-    width:80%;
-    padding-left:10%;
+.imagewrapper{
+    width:90%;
+    padding-left:5%;
     padding-top:3%;
     padding-bottom: 3%;
-    transition: all 0.5s;
+    
+    height: 25.3vw;
+    overflow: hidden;
 }
 
-.CushItem img:hover{
-    transform: scale(1.1);
+.imagewrapper img{
+    width:100%;
+    position: relative;
 }
 
-.CushItem p{
-    font-size: 0.8vw;
-    padding-left:2%;
-    padding-right:2%;
+.imagewrapper p{
+    position: relative;
+    z-index:10;
+    font-size: 0.9vw;
+    top: -25.5vw;
+    bottom: 0;
+    padding-left: 1%;
+    padding-right: 5%;
+    background: rgba(211, 211, 211, 0.85);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    width: 95%;
+    height: 100%;
+    
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
 
+@media only screen and (max-width: 600px){
+    .imagewrapper p{
+        position: relative;
+        z-index:10;
+        font-size: 0.9vw;
+        top: -27.3vw;
+        bottom: 0;
+        padding-left: 1%;
+        padding-right: 5%;
+        background: rgba(211, 211, 211, 0.85);
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+        width: 95%;
+        height: 110%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
+}
+
+.imagewrapper:hover p{
+    visibility: visible;
+    opacity: 1;
 }
 
 .top {
@@ -57,6 +97,14 @@
     text-align: center;
     font-size: 1vw;
     border-bottom: 1px solid black;
+}
+.CushItem p{
+    font-size: 0.8vw;
+    
+}
+
+.price{
+    margin-left: 2%;
 }
 
 .CushItem a{

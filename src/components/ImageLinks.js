@@ -5,7 +5,7 @@ class ImageLinks extends React.Component{
     render(){
         return(
             <div className="imageLinks">
-                <div className="image" style={{backgroundImage:'url(./images/image00003.jpeg)'}}>
+                <div className="image" style={{backgroundImage:'url(./images/image00303.jpeg)'}}>
                     <div className="text">
                         <a href="prints">Prints</a>
                     </div>

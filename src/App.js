@@ -9,6 +9,7 @@ import Prints from './pages/Prints';
 import Gallery from './pages/Gallery';
 import BasketPage from './pages/BasketPage';
 import Error from './pages/Error';
+import Print from './pages/print';
  
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
              <Route path="/prints" component={Prints}/>
              <Route path="/Gallery" component={Gallery}/>
              <Route path="/Basket" component={BasketPage}/>
+             <Route path="/Print" component={Print}/>
             <Route component={Error}/>
            </Switch>
         </div> 

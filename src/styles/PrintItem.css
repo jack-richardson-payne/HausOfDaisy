@@ -17,10 +17,9 @@
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
     margin-bottom:2%;
-    min-height: 49vw;
-    max-height: 49vw;
+    height: 40vw;
     -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+    scrollbar-width: none;  /* Firefox */
 }
 
 .printItem::-webkit-scrollbar{
@@ -31,24 +30,44 @@
     border: 1px solid black;
 }
 
-.printItem img{
- 
-    width:80%;
-    padding-left:10%;
+.imagewrapperprint{
+    width:90%;
+    padding-left:5%;
     padding-top:3%;
     padding-bottom: 3%;
-    transition: all 0.5s;
+    
+    height: 25vw;
+    overflow: hidden;
 }
 
-.printItem img:hover{
-    transform: scale(1.1);
+.imagewrapperprint img{
+    width:95%;
+    margin-left: 2.5%;
+    position: relative;
 }
 
-.printItem p{
-    font-size: 0.8vw;
-    padding-left:2%;
-    padding-right:2%;
+.imagewrapperprint p{
+    position: relative;
+    z-index:10;
+    font-size: 0.9vw;
+    top: -25.5vw;
+    bottom: 0;
+    padding-left: 1%;
+    padding-right: 5%;
+    background: rgba(211, 211, 211, 0.85);
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    width: 95%;
+    height: 100%;
+    
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
 
+.imagewrapperprint:hover p{
+    visibility: visible;
+    opacity: 1;
 }
 
 .top {
@@ -107,4 +126,35 @@
 
 .printItem button:hover{
     border: 1px solid black;
+}
+
+.printItem p{
+    font-size: 0.8vw;
+    
+}
+
+.price{
+    margin-left: 2%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .imagewrapperprint p{
+        position: relative;
+        z-index:10;
+        font-size: 0.9vw;
+        top: -27.5vw;
+        bottom: 0;
+        padding-left: 1%;
+        padding-right: 5%;
+        background: rgba(211, 211, 211, 0.85);
+        color: black;
+        visibility: hidden;
+        opacity: 0;
+        width: 95%;
+        height: 110%;
+      
+        /* transition effect. not necessary */
+        transition: opacity .2s, visibility .2s;
+    }
 }
