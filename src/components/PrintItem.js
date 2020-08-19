@@ -14,12 +14,16 @@ class PrintItem extends React.Component{
         localStorage.setItem("targetDesc", JSON.stringify(this.props.desc));
         localStorage.setItem("targetPrice", JSON.stringify(this.props.price));
         localStorage.setItem("targetSrc", JSON.stringify(this.props.src));
+        localStorage.setItem("targetPath", JSON.stringify(this.props.path));
+        localStorage.setItem("targetEtsy", JSON.stringify(this.props.etsy));
 
         localStorage.getItem("targetId");
         localStorage.getItem("targetTitle"); 
         localStorage.getItem("targetDesc");
         localStorage.getItem("targetPrice"); 
         localStorage.getItem("targetSrc");
+        localStorage.getItem("targetPath");
+        localStorage.getItem("targetEtsy");
         window.location.href = 'Print'
     }
     render(){
@@ -28,10 +32,9 @@ class PrintItem extends React.Component{
                 <h2>{this.props.title}</h2>
                 <div  className="imagewrapperprint">
                 <img src={this.props.src} alt={this.props.title} />
-                <p href="Prints" onClick={() => this.getItems()}>{this.props.desc} <br/>Item Id:{this.props.id}</p>
+                <p href="Print" onClick={() => this.getItems()}>{this.props.desc} <br/>Item Id:{this.props.id}</p>
                 </div>
                 <p className="price"><br/><b>Price: £{this.props.price}</b></p>
-                <button onClick={() => this.handleClick()}>Add to basket</button>
                 <a href={this.props.etsy} target="_blank" rel="noopener noreferrer">Buy on etsy</a>
                 
             </div>
@@ -40,3 +43,5 @@ class PrintItem extends React.Component{
 }
 
 export default PrintItem;
+
+// <button onClick={() => this.handleClick()}>Add to basket</button>

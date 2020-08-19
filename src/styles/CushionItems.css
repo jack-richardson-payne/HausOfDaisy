@@ -15,7 +15,7 @@
     overflow: scroll;
     border: 1px solid lightgray;
     font-family: 'Source Code Pro', monospace;
-    height: 45vw;
+    height: 39vw;
     -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }

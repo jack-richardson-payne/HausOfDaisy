@@ -10,6 +10,7 @@ import Gallery from './pages/Gallery';
 import BasketPage from './pages/BasketPage';
 import Error from './pages/Error';
 import Print from './pages/print';
+import Cushion from './pages/cushion';
  
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
              <Route path="/Gallery" component={Gallery}/>
              <Route path="/Basket" component={BasketPage}/>
              <Route path="/Print" component={Print}/>
+             <Route path="/Cushion" component={Cushion}/>
             <Route component={Error}/>
            </Switch>
         </div> 

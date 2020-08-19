@@ -25,7 +25,8 @@ class Prints extends React.Component{
                 <div className="printCont">
                     <PrintItem title="Blue Abstract Digitally Printed Wall Art - A3 Print" 
                     id='4' 
-                    src='./images/prints/BlueAbstract/main.jpg'  
+                    src='./images/prints/BlueAbstract/main.jpg' 
+                    path='./images/prints/BlueAbstract/'
                     desc="A contemporary hand drawn digital print, part of our 'Abstract' range. Developed from a collage of buildings made out of scrap metal, I was particularly inspired by nuts and bolts creating the circular shapes. This later developed into the layered industrial looking pattern today. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -34,6 +35,7 @@ class Prints extends React.Component{
                     <PrintItem title="Blue Butterfly Wall Art - A3 Print" 
                     id='5' 
                     src='./images/prints/Butterfly/main.jpg'  
+                    path='./images/prints/Butterfly/'
                     desc="A contemporary Blue Butterfly digital design. Created by layering a modern polka dot inspired print, over a hand drawing of a butterfly. Designed and created by HAUS OF DAISY. Printed on high quality A3 paper ready to be framed. The perfect addition to any home. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -42,6 +44,7 @@ class Prints extends React.Component{
                     <PrintItem title="Layered Floral Wall Art - A2 Print" 
                     id='6' 
                     src='./images/prints/LayeredFloral/main.jpg'  
+                    path='./images/prints/LayeredFloral/'
                     desc="A contemporary hand drawn floral digital design, inspired by an English garden. Designed and created by HAUS OF DAISY. Printed on high quality A2 paper ready to be framed. The perfect addition to any home. Height: 59.4 Centimetres; Width: 42 Centimetres.
                     " 
                     price="18"
@@ -50,6 +53,7 @@ class Prints extends React.Component{
                     <PrintItem title="Quote Floral Wall Art - A3 Print" 
                     id='7' 
                     src='./images/prints/LOVE/main.jpg'  
+                    path='./images/prints/LOVE/'
                     desc="A contemporary hand drawn floral digital design, with the word 'LOVE' across the centre. Background features hand drawn flowers for a bold design. Designed and created by HAUS OF DAISY. Printed on high quality A3 paper ready to be framed. The perfect addition to any home. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -58,6 +62,7 @@ class Prints extends React.Component{
                     <PrintItem title="Quote Sea life Wall Art - A3 Print" 
                     id='8' 
                     src='./images/prints/OhCrab/main.jpeg'  
+                    path='./images/prints/OhCrab/'
                     desc="A contemporary sea life inspired hand drawn digital design. Featuring layered crabs, and the humorous phrase 'OH CRAB' across the centre. Designed and created by HAUS OF DAISY. Printed on high quality A3 paper ready to be framed. The perfect addition to any home. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -66,6 +71,7 @@ class Prints extends React.Component{
                     <PrintItem title="Pink Floral Wall Art - A2 Print" 
                     id='9' 
                     src='./images/prints/PinkFloral/main.jpeg'  
+                    path='./images/prints/PinkFloral/'
                     desc="A contemporary hand drawn floral digital design, in a bold pink shade with blue and white highlights. Designed and created by HAUS OF DAISY. Printed on high quality A2 paper ready to be framed. The perfect addition to any home.
                     " 
                     price="18"
@@ -73,7 +79,8 @@ class Prints extends React.Component{
     />
                     <PrintItem title="Pink Pineapple Wall Art - A3 Print" 
                     id='10' 
-                    src='./images/prints/PinkPinapple/main.jpg'  
+                    src='./images/prints/PinkPinapple/main.jpg' 
+                    path='./images/prints/PinkPinapple/' 
                     desc="A contemporary Pink Pineapple digital design. Created by layering a tropical print design featuring funky sunglasses over a hand drawing of a Pineapple. Designed and created by HAUS OF DAISY. Printed on high quality A3 paper ready to be framed. The perfect addition to any home. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -81,7 +88,8 @@ class Prints extends React.Component{
     />
                     <PrintItem title="Pink Swirl Digitally Printed Wall Art - A3 Print" 
                     id='11' 
-                    src='./images/prints/PinkSwirl/main.jpg'  
+                    src='./images/prints/PinkSwirl/main.jpg' 
+                    path='./images/prints/PinkSwirl/'  
                     desc="A contemporary hand drawn digital print, part of our 'Abstract' range. Designed and created by HAUS OF DAISY. Printed on high quality A3 paper ready to be framed. The perfect addition to any home. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -90,6 +98,7 @@ class Prints extends React.Component{
                     <PrintItem title="Yellow Abstract Digitally Printed Wall Art - A3 Print" 
                     id='12' 
                     src='./images/prints/YellowAbstract/main.jpeg'  
+                    path='./images/prints/YellowAbstract/'  
                     desc="A contemporary hand drawn digital print, part of our 'Abstract' range. Developed from a collage of buildings made out of scrap metal, I was particularly inspired by nuts and bolts creating the circular shapes. This later developed into the layered pattern today. Height: 42 Centimetres; Width: 29.7 Centimetres.
                     " 
                     price="14"
@@ -97,7 +106,8 @@ class Prints extends React.Component{
     />
                     <PrintItem title="Liquid Floral Wall Art - A2 Print" 
                     id='13' 
-                    src='./images/prints/LiquidFloral/main.jpg'  
+                    src='./images/prints/LiquidFloral/main.jpg' 
+                    path='./images/prints/LiquidFloral/' 
                     desc="A contemporary hand drawn floral digital design, which has been 'liquified' in Photoshop to create this stunning piece. Designed and created by HAUS OF DAISY. Printed on high quality A2 paper ready to be framed. The perfect addition to any home. Height: 59.4 Centimetres; Width: 42 Centimetres.
                     " 
                     price="18"

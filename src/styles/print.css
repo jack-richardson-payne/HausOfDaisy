@@ -10,20 +10,76 @@
 .info{
     float: left;
     width: 65%;
+    border-right: 1px dashed black;
 }
 .info p{
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-family: 'Source Code Pro', monospace;
-     
-}
-
-.individualPrint img{
-    width: 30%;
-    height: auto;
-    float: left;
+    
 }
 
 .info h2{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     font-family: 'Source Code Pro', monospace;
 }
+.findIt {
+    padding-top: 4%;
+    width: 30%;
+    float: left;
+}
+.findIt a{
+    font-family: 'Source Code Pro', monospace;
+    display: block;
+    width:auto;
+    text-decoration: none;
+    color:black;
+    margin-left:2%;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 3%;
+    text-align: center;
+    height: 1.6vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    line-height: 1.6vw;
+    margin-bottom: 1%;
+    
+    margin-left: 25%;
+}
+
+.findIt a:hover{
+    border: 1px solid black;
+}
+
+.photos {
+    float: left;
+    width: 100%;
+    padding-top: 3%;
+    border-top: 1px dashed black;
+}
+
+.photos img{
+    width: 40%;
+    float: left;
+    transition: all 0.5s;
+    
+}
+
+.pad {
+    margin-right: 15%;
+}
+
+.photos img:hover{
+    transform: scale(1.1);
+}
+
+.blue{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+}
+
+.pink {
+    background-color: #d3a3e4;
+    border: 1px solid #d3a3e4;
+}
+

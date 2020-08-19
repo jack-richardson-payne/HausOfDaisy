@@ -35,13 +35,7 @@ class Heading extends React.Component{
           localStorage.getItem("basketId");
           localStorage.getItem("basketPrice"); 
           localStorage.getItem("basketTitle");}}>Prints</a>
-      <div className="BLeft small">
-        <a className="BLeft small" href="basket"  onClick={function(){
-          localStorage.getItem("basketId");
-          localStorage.getItem("basketPrice"); 
-          localStorage.getItem("basketTitle");}}><img src="./images/misc/basket.png" alt="Basket" />
-          {this.getItems()}</a>
-      </div>
+      
         <div className="instaLink MRight">
           <p>Check out these links!</p>
           <a href="https://www.instagram.com/hausofdaisy/" target="_blank" rel="noopener noreferrer">
@@ -58,3 +52,11 @@ class Heading extends React.Component{
 export default Heading;
 
 //<img src={require('./images/logo.PNG')} alt="Haus Of Daisy"/>
+
+// <div className="BLeft small">
+// {/* <a className="BLeft small" href="basket"  onClick={function(){
+//   localStorage.getItem("basketId");
+//   localStorage.getItem("basketPrice"); 
+//   localStorage.getItem("basketTitle");}}><img src="./images/misc/basket.png" alt="Basket" />
+//   {this.getItems()}</a>
+// </div> */}
